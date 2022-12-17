@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto+Slab:wght@300;400;500&display=swap');
+
 .logo img {
   padding: 30px 0;
   width: 100%;
@@ -44,9 +46,19 @@ nav{
   display: flex;
   justify-content: center;
 }
+#nav-list {
+  padding: 26px 222px;
+  display: none;
+}
+.nav-item {
+  padding: 0 15px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #62646b;
+}
 
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto+Slab:wght@300;400;500&display=swap');
+
 
 *{
     font-family: 'Montserrat', sans-serif;
@@ -80,16 +92,7 @@ a.on {
     display: block;
 }
 
-#nav-list {
-    padding: 26px 222px;
-    display: none;
-}
-.nav-item {
-    padding: 0 15px;
-    font-size: 14px;
-    font-weight: 600;
-    color: #62646b;
-}
+
 
 .nav-item:hover {
     color: #d4d6dc;
