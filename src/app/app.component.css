@@ -34,6 +34,16 @@ footer img {
     width: 20px;
 }
 
+.flex {
+  display: flex;
+}
+.flex-center {
+  justify-content: center;
+}
+nav{
+  display: flex;
+  justify-content: center;
+}
 
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto+Slab:wght@300;400;500&display=swap');
@@ -155,150 +165,4 @@ hr {
     color: #afafaf;
     width: 200px;
     text-align: center;
-}
-
-footer {
-    padding-top: 20px;
-}
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 575.98px) {
-    
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 767.98px) {
-    .mobile-nav {
-        display: none;
-    }
-    #nav-list {
-        padding: 16px 120px;
-        display: block;
-    }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 991.98px) {
-    .mobile-nav {
-        display: none;
-    }
-    #nav-list {
-        padding: 16px 120px;
-        display: block;
-    }
-    .nav-item {
-        padding: 0 10px;
-    }
-
-    .ray-main {
-        margin: 0px 120px;
-    }
-
-    .main-quote {
-        padding-top: 40px;
-    }
-    
-    .main-quote-1st {
-        text-align: center;
-        font-size: 40px;
-    }
-    .main-quote-2sd {
-        font-size: 16px;
-    }
-
-    .avatar {
-        width: 160px;
-        height: auto;
-        border-radius: 50%;
-        margin: 30px ;
-    }
-    
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 1199.98px) {
-    #nav-list {
-        padding: 26px 442px;
-    }
-    .nav-item {
-        padding: 0 15px;
-        font-size: 16px;
-        font-weight: 600;
-    }
-    
-    .ray-main {
-        margin: 0px 442px;
-    }
-    
-    .main-quote {
-        padding-top: 100px;
-    }
-    
-    .main-quote-1st {
-        text-align: center;
-        font-size: 50px;
-        font-weight: 700;
-    }
-    
-    .main-quote-2sd {
-        text-align: center;
-        font-size: 16px;
-    }
-    
-    .avatar {
-        width: 200px;
-        height: auto;
-        margin: 30px ;
-    }
-    
-    .media-avatar {
-        width: 36px;
-        height: auto;
-        border-radius: 50%;
-    }
-    
-    hr {
-        width: 80%;
-        border: 1px solid #767676;
-        margin: 60px;
-    }
-
-    .title {
-        font-size: 36px;
-        margin-bottom: 26px;
-    }
-
-    .skills-group {
-        flex-direction: row;
-        align-items: center;
-    }
-
-    .skills-group-image {
-        height: auto;
-    }
-
-    .skills-group-image {
-        width: 100px;
-        height: auto;
-        border-radius: 50%;
-    }
-    
-    .skills-group-name {
-        font-size: 18px;
-        font-weight: 400;
-        margin-top: 12px;
-    }
-    
-    .skills-group-detail {
-        width: 200px;
-    }
-    
-    footer {
-        padding-top: 20px;
-    }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1399.98px) {
-    
 }
