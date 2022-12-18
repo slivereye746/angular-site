@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['../styles.css']
 })
 export class AppComponent {
-  title = 'angular-quickstart';
+  title = 'personal-site';
+  //title = 'angular-quickstart';
 }
