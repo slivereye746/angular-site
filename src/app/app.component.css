@@ -1,28 +1,3 @@
-.logo img {
-    padding: 30px 0;
-    width: 100%;
-  }
-
-  .resource-list {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: larger;
-    padding: 10px;
-    text-align: center;
-  }
-  
-  .resource-list ul {
-      text-align: left;
-      margin: 0 auto;
-      width: 300px;
-  }
-  
-  .resource-list a {
-    color: black;
-    line-height: 30px;
-  }
-  
-  
-
 #background {
     position: fixed;
     width: 100%;
@@ -53,6 +28,10 @@
   
 }
 
+.header pre {
+  font-size: xxx-large;
+}
+
 .header .logo img {
   padding: 30px 0;
   width: 100%;
@@ -66,16 +45,29 @@
   font-weight: 500;
 }
 
-.header bg {
-  padding: 30px 0;
-  position: absolute;
-}
-
 @media only screen and (max-width: 450px) {
   .header h2 {
     width: 90%;
     padding: 5%;
   }
+}
+
+.title {
+  text-align: center;
+}
+.title-lv1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+.title-description {
+  font-size: 25px;
+  font-weight: 700;
+}
+.title-semi-description {
+  font-size: medium;
+  font-weight: 500;
+  color: #7B878F;
+  text-transform: uppercase;
 }
 
 .bttns{
@@ -140,4 +132,7 @@
 .resource-list a {
   color: black;
   line-height: 30px;
+  font-size: larger;
+  padding: 10px;
+  text-align: center;
 }
