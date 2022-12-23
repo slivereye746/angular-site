@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&display=swap');
 #background {
     position: fixed;
     width: 100%;
@@ -9,19 +10,34 @@
   margin: 0 auto;
 }
 
+
 .header{
-  background-image: url("../assets/img/ssf.png");
+  /*background-image: url("../assets/img/ssf.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: contain;*/
+  position: relative;
+}
+
+.header img {
+  position: absolute;
+  width: inherit;
+  top: 50%;
+  left: 50%;
+  min-height: 100%;
+  min-width: 100%;
+  transform: translate(-50%, -50%);
 }
 
 .header #vote {
-  padding-top:5%;
+  padding-top:10%;
 }
 .header #vote p{
-  font-size: calc(max(5vw, 32px));
+  font-size: calc(max(4vw, 32px));
   margin: 0;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  color: #0F0C5A;
 }
 
 .header #header-description {
@@ -42,12 +58,21 @@
   }
 }
 
+.semi-dark {
+  background-color: #F9F9FB;
+}
+
+.skills {
+  margin-top: 2%;
+}
+
 .title {
   text-align: center;
 }
 .title-lv1 {
   font-size: 50px;
   font-weight: 700;
+  padding-top: 3%;
 }
 .title-description {
   font-size: 25px;

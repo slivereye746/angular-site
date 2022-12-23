@@ -1,7 +1,18 @@
 header{
-    background-color: #d4d6dc
+    background-color: #ffffff
 }
 
-.nav-item:hover{
-    
+.nav-link{
+    font-size: 16px;
+    font-weight: 600;
+    color: #828285;
 }
+
+.on{
+    color: #1c1c1f;
+}
+
+.nav-link:hover{
+    color: #F09B00;
+}
+
