@@ -6,43 +6,33 @@
 }
 
 #content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   margin: 0 auto;
 }
 
 .header{
-  text-align: left;
   background-image: url("../assets/img/ssf.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+  background-size: contain;
 }
 
-.header h1 {
+.header #vote {
   padding-top:5%;
-  margin: 0;
+}
+.header #vote p{
   font-size: calc(max(5vw, 32px));
-  
+  margin: 0;
 }
 
-.header pre {
-  font-size: xxx-large;
-}
-
-.header .logo img {
-  padding: 30px 0;
-  width: 100%;
-}
-
-.header h2 {
+.header #header-description {
   line-height: 34px;
-  width: 50%;
   margin: 0 auto;
   padding-bottom: 5%;
+}
+
+.header #header-description p{
   font-weight: 500;
+  width: 50%;
 }
 
 @media only screen and (max-width: 450px) {
@@ -72,6 +62,7 @@
 
 .bttns{
   margin-bottom: 5%;
+  width: 100%;
 }
 
 .bttn{
