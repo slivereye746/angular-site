@@ -30,10 +30,18 @@
   width: 600px;
 }
 
-.contact {
+#contact_btn {
   width: 210px;
-  height: 55px;
+  height: 56px;
   font-size: 20px;
+  font-weight: 500;
   border-radius: 2em;
+  border-style: solid;
   border-color: #FFA415;
+  background-color: inherit;
+}
+
+#contact_btn img {
+  width: 1.2em;
+  margin-left: 0.5em;
 }
