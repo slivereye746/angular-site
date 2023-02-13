@@ -26,8 +26,12 @@
   font-weight:normal;
   width: 100%; 
 }
-.header img {
-  width: 600px;
+.header #dan_snow {
+  width: 540px;
+  padding: 30px;
+  border: 1px solid #ececec;
+  border-radius: 50%;
+  box-shadow: rgba(115, 115, 121, 0.2) 0px 7px 29px 0px;
 }
 
 #contact_btn {
