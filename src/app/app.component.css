@@ -30,10 +30,10 @@
   width: 600px;
 }
 
-.btt-contact {
+.contact {
+  width: 210px;
+  height: 55px;
   font-size: 20px;
-}
-
-.footer{
-  opacity: 0.6;
+  border-radius: 2em;
+  border-color: #FFA415;
 }
