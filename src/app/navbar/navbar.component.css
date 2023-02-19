@@ -2,7 +2,11 @@ header{
     background-color: #ffffff
 }
 
-.nav-link{
+.navbar {
+    display: inline;
+}
+
+.nav-item{
     font-size: 16px;
     font-weight: 600;
     color: #828285;
@@ -12,7 +16,17 @@ header{
     color: #1c1c1f;
 }
 
-.nav-link:hover{
+.nav-item:hover{
     color: #F09B00;
 }
 
+/* Mobile design */
+
+@media (max-width: 842px) {
+    /*
+       Nếu chiều rộng của khung hiển thị web nhỏ hơn hoặc bằng 842px,
+       code CSS được viết ở đây sẽ được áp dụng thay thế cho
+       code CSS được viết trước đó ở phía trên.
+    */
+ } /* @media */
+ 
