@@ -1,14 +1,38 @@
-<header>
+<header class="container">
     <div class="bg-warning py-2"> 
         Building...
     </div>
-    <div id="navbar_top" class="container navbar d-flex">
-        <a class="navbar-brand" href="#"><img src="../assets/svg/logo-box.svg" alt="LOGO"></a>
-        <nav class="navbar">
-            <a class="nav-item on mx-2" href="#"> HOME </a>
-            <a class="nav-item mx-2" href="#"> PROJECTS </a>
-            <a class="nav-item mx-2" href="#"> GALLERY </a>
-            <a class="nav-item mx-2" href="#"> CONTACT </a>
-        </nav> <!-- container-fluid.// -->
+    <div class="navbar">
+        <div>
+          <a class="navbar-brand" href="#"><img src="../assets/svg/logo-box.svg" alt=""></a>  
+        </div>
+       <div>
+        <nav class="navbar-list">
+          <a class="nav-item on" href="#home"> HOME </a>
+          <a class="nav-item" href="#projects"> PROJECTS </a>
+          <a class="nav-item" href="#gallery"> GALLERY </a>
+          <a class="nav-item" href="#contact"> CONTACT </a>
+      </nav> <!-- container-fluid.// -->
+       </div>
     </div>
+    <!-- Moblie navbar -->
+    <div class="navbar_mb">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa-solid fa-bars"></i>
+        </a>
+      </div>
 </header>
+
+
+<!--
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+</script>
+-->

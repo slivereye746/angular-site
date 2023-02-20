@@ -3,7 +3,7 @@ header{
 }
 
 .navbar {
-    display: inline;
+    display: none;
 }
 
 .nav-item{
@@ -20,13 +20,35 @@ header{
     color: #F09B00;
 }
 
-/* Mobile design */
+.navbar_mb {
+    display: block;
+    margin-right: 20px;
+    height: 60px;
+    width: 100vw;
+    background-color: #828285;
+}
 
-@media (max-width: 842px) {
-    /*
-       Nếu chiều rộng của khung hiển thị web nhỏ hơn hoặc bằng 842px,
-       code CSS được viết ở đây sẽ được áp dụng thay thế cho
-       code CSS được viết trước đó ở phía trên.
-    */
- } /* @media */
- 
+
+
+/* @media
+@media (min-width: 576px) { ... }
+
+@media (min-width: 992px) { ... }
+
+@media (min-width: 1200) { ... }
+
+
+@media (min-width: 1400px) { ... }
+*/
+
+@media (min-width: 1350px) { 
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navbar_mb {
+        display: none;
+    }
+}
