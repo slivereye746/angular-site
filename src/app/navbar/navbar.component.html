@@ -18,24 +18,26 @@
       </button>
        </div>
     </div>
-    <!-- Moblie navbar -->
-    <div class="navbar_mb">
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa-solid fa-bars"></i>
-        </a>
-      </div>
 </header>
-
-
-<!--
-    <script>
-    function myFunction() {
-      var x = document.getElementById("myLinks");
-      if (x.style.display === "block") {
-        x.style.display = "none";
-      } else {
-        x.style.display = "block";
-      }
-    }
-</script>
--->
+<!-- Modal -->
+<div class="modal fade" id="mobileMenu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content blur">
+      <!-- <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        
+        </button>
+      </div>  -->
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      <div class="modal-body text-center" data-bs-dismiss="modal" aria-label="Close">
+      </div>
+      <div class="mb_link d-flex flex-column text-center position-absolute top-30 start-50 translate-middle-x mt-5">
+          <a class="navbar-brand" href="#"><img src="/svg/logo-box.svg" alt=""></a>
+          <a href="#home" class="active">Home</a>
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+        </div>
+    </div>
+  </div>
+</div>
