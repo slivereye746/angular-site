@@ -32,6 +32,9 @@ header{
     font-weight: 600;
     color: #828285;
   }
+.nav-item-mb.on {
+color: #ffffff;
+}
 
 .mb_menu {
     display: block;
