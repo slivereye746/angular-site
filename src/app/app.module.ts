@@ -7,6 +7,11 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavComponent } from './nav/nav.component';
 
+const routes: Routes = [
+  { path: 'home', component: AppComponent },
+  { path: 'navbar', component: NavbarComponent },
+];
+
 @NgModule({
   declarations: [
     AppComponent,
