@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&display=swap');
+
+.main-content {
+  padding-top:30px;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 20px;
+}
+
+.main-content #vote {
+  padding-top:30px;
+}
+
+.main-content #vote p{
+  font-size: 38px;
+  margin: 0;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  color: #000000;
+  text-align: center;
+}
+
+.main-content #header-description {
+  line-height: 19px;
+  margin: 0 auto;
+  padding-bottom: 5%;
+  font-style: italic;
+  font-size: 14px;
+  color: #666666;
+  text-align: center;
+}
+
+.main-content #header-description p{
+  font-weight:normal;
+  width: 100%; 
+}
+.header #dan_snow {
+  width: 300px;
+  padding: 30px;
+  border: 1px solid #ececec;
+  border-radius: 50%;
+  box-shadow: rgba(115, 115, 121, 0.2) 0px 7px 29px 0px;
+}
+
+#contact_btn {
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 2em;
+  border-style: solid;
+  border-color: #FFA415;
+}
+
+#contact_btn img {
+  width: 1.2em;
+  margin-left: 0.5em;
+}
+
+.main-icon-link {
+  font-size: 1em;
+  color: #666666;
+}
+
+@media (min-width: 1350px) { 
+  .header #dan_snow {
+    width: 500px;
+  }
+
+  .main-content {
+    padding-top:30px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+  }
+
+  .main-content #vote p{
+    font-size: 86px;
+    margin: 0;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    color: #000000;
+    text-align: left;
+  }
+  .main-content #header-description {
+    text-align: left;
+    width: 620px;
+  }
+  
+}

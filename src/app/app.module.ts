@@ -7,20 +7,28 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
-import { NavComponent } from './nav/nav.component';
+import { HomeComponent } from './home/home.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     FooterComponent,
-    NavComponent
+    HomeComponent,
+    ProjectsComponent,
+    GalleryComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot([
-      {path: 'home', component: AppComponent},
-      {path: 'navbar', component: NavbarComponent},
+      {path: 'home', component: HomeComponent},
+      {path: 'projects', component: ProjectsComponent},
+      {path: 'gallery', component: GalleryComponent},
+      {path: 'contact', component: ContactComponent},
     ]),
   ],
   providers: [],
