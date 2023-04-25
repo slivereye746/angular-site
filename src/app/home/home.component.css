@@ -11,7 +11,7 @@
   padding-top:30px;
 }
 
-.main-content #vote p{
+].main-content #vote p{
   font-size: 38px;
   margin: 0;
   font-family: Georgia, Times, "Times New Roman", serif;
@@ -56,7 +56,9 @@
 
 #contact_btn img {
   width: 1.2em;
-  margin-left: 0.5em;
+.
+3-/*
+.3\  margin-left: 0.5em;
 }
 
 .main-icon-link {
@@ -92,4 +94,4 @@
     width: 620px;
   }
   
-}
+}`  
