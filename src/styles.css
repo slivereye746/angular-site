@@ -44,10 +44,6 @@
     margin-left: auto;
 }
 
-  .flex {
-    display: flex;
-  }
-
   .flex-row-reverse {
     display: flex;
     flex-direction: row-reverse;
