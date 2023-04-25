@@ -57,7 +57,7 @@
 #contact_btn img {
   width: 1.2em;
 /*
-  margin-left: 0.5em;
+  margin-left: 0.5em; */
 }
 
 .main-icon-link {
@@ -93,4 +93,4 @@
     width: 620px;
   }
   
-}
+} 
