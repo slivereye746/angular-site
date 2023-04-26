@@ -68,6 +68,13 @@
   list-style: none;
 }
 
+.resource-list span{
+  display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin: 6px;
+}
+
 .resource-list ul li img{
   height: 80px;
   width: auto;
