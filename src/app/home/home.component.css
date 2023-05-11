@@ -80,6 +80,12 @@
   width: auto;
 }
 
+.skills-item {
+  width: 260px;
+  height: 260px;
+  background-color: #666666;
+}
+
 @media (min-width: 1350px) { 
   .header #dan_snow {
     width: 500px;
