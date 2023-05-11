@@ -83,7 +83,11 @@
 .skills-item {
   width: 260px;
   height: 260px;
-  background-color: #666666;
+  background-color: #ffffff;
+}
+.skills-title {
+  font-size: large;
+  font-weight: 600;
 }
 
 @media (min-width: 1350px) { 
