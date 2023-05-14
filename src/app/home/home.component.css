@@ -5,6 +5,13 @@
   align-items: center;
   padding: 30px 20px;
 }
+
+.main_heading{
+  text-align: center;
+  font-size: x-large;
+  font-weight: 600;
+}
+
 .header #dan_snow {
   width: 300px;
   padding: 20px;
