@@ -97,6 +97,17 @@
   font-weight: 600;
 }
 
+.project-tag {
+  font-size: 12px;
+}
+.project-title {
+  font-size: 22px;
+  font-weight: 600;
+}
+.project-description {
+  color: #666666;
+}
+
 @media (min-width: 1350px) { 
   .header #dan_snow {
     width: 500px;
