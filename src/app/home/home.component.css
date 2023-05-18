@@ -13,15 +13,11 @@
 }
 
 .header #dan_snow {
-  width: 300px;
-  padding: 20px;
+  width: 260px;
+  padding: 10px;
   border: 1px solid #ececec;
   border-radius: 50%;
   box-shadow: rgba(115, 115, 121, 0.2) 0px 7px 29px 0px;
-}
-
-.main-content #vote {
-  padding-top:30px;
 }
 
 .main-content #vote p{
@@ -37,12 +33,9 @@
 
 .main-content #header-description {
   line-height: 19px;
-  margin: 0 auto;
-  padding-bottom: 5%;
   font-style: italic;
   font-size: 14px;
   color: #666666;
-  text-align: center;
 }
 
 .main-content #header-description p{
