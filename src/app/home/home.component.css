@@ -17,7 +17,7 @@
   padding: 10px;
   border: 1px solid #ececec;
   border-radius: 50%;
-  box-shadow: rgba(115, 115, 121, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(115, 115, 121, 0.2) 0px 4px 20px 0px;
 }
 
 .main-content #vote p{
@@ -103,19 +103,18 @@
 
 @media (min-width: 1350px) { 
   .header #dan_snow {
-    width: 500px;
+    width: 440px;
+    padding: 20px;
   }
 
   .main-content {
-    padding-top:30px;
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 20px;
   }
 
   .main-content #vote p{
-    font-size: 86px;
+    font-size: 74px;
     margin: 0;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-style: normal;
