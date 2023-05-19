@@ -101,6 +101,18 @@
   color: #666666;
 }
 
+.worknumber {
+  background-color: #EEEEEE;
+  color: #FFA71E;
+}
+
+.worknumber .worknumber-num {
+  font-size: 30px;
+}
+.worknumber .worknumber-text {
+  font-size: 12px;
+}
+
 @media (min-width: 1350px) { 
   .header #dan_snow {
     width: 440px;
