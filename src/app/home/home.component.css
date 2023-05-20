@@ -90,6 +90,10 @@
   font-weight: 600;
 }
 
+.project-image {
+  width: 95vw;
+  height: auto;
+}
 .project-tag {
   font-size: 12px;
 }
@@ -99,6 +103,10 @@
 }
 .project-description {
   color: #666666;
+}
+.project-list-item {
+  width: 30vw;
+  height: auto;
 }
 
 .worknumber {
@@ -115,9 +123,10 @@
   font-size: 12px;
 }
 
-.blog {
+.blog-item {
   width: 300px;
-  height:120vw;
+  height: 400px;
+  background-color: #666666;
 }
 
 @media (min-width: 1350px) { 
@@ -147,9 +156,13 @@
     width: 620px;
   }
 
-  .blog {
-    width: 300px;
-    height: 380px
+  .project-image {
+    width: 400px;
+    height: auto;
+  }
+  .project-list-item {
+    width: 100px;
+    height: auto;
   }
   
 } 
