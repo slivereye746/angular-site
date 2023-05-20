@@ -105,9 +105,11 @@
   background-color: #EEEEEE;
   color: #FFA71E;
 }
-
+.worknumber .worknumber-box {
+  width: 10rem;
+}
 .worknumber .worknumber-num {
-  font-size: 30px;
+  font-size: 20px;
 }
 .worknumber .worknumber-text {
   font-size: 12px;
