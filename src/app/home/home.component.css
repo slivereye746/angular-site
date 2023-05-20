@@ -115,6 +115,11 @@
   font-size: 12px;
 }
 
+.blog {
+  width: 300px;
+  height:120vw;
+}
+
 @media (min-width: 1350px) { 
   .header #dan_snow {
     width: 440px;
@@ -140,6 +145,11 @@
   .main-content #header-description {
     text-align: left;
     width: 620px;
+  }
+
+  .blog {
+    width: 300px;
+    height: 380px
   }
   
 } 
