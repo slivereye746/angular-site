@@ -80,6 +80,7 @@
   width: auto;
 }
 
+/* Skills */
 .skills-item {
   width: 260px;
   height: 260px;
@@ -90,25 +91,36 @@
   font-weight: 600;
 }
 
+/* Projects */
 .project-image {
   width: 95vw;
   height: auto;
+  background-size: cover;
+}
+.project-tagcolor {
+  width: 24px;
+  height: 12px;
+  background-color: #FFA415;
 }
 .project-tag {
   font-size: 12px;
+  font-weight: 500;
+  color: #333333;
 }
 .project-title {
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 500;
 }
 .project-description {
   color: #666666;
 }
 .project-list-item {
+  background-size: cover;
   width: 30vw;
   height: auto;
 }
 
+/* List Number */
 .worknumber {
   background-color: #EEEEEE;
   color: #FFA71E;
@@ -123,6 +135,7 @@
   font-size: 12px;
 }
 
+/* Blogs */
 .blog-item {
   width: 300px;
   height: 400px;
@@ -156,13 +169,28 @@
     width: 620px;
   }
 
+  /* Projects */
   .project-image {
-    width: 400px;
-    height: auto;
+    width: 747px;
+    height: 467px;
+  }
+  .project-tagcolor {
+    width: 28px;
+    height: 14px;
+    background-color: #FFA415;
+  }
+  .project-tag {
+    font-size: 15px;
+  }
+  .project-title {
+    font-size: 30px;
+  }
+  .project-description {
+    font-size: 18px;
   }
   .project-list-item {
-    width: 100px;
-    height: auto;
+    width: 160px;
+    height: 100px;
   }
   
 } 
