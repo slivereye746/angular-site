@@ -192,5 +192,18 @@
     width: 160px;
     height: 100px;
   }
+
+  /* List Number */
+  .worknumber {
+  }
+  .worknumber .worknumber-box {
+    width: 14rem;
+  }
+  .worknumber .worknumber-num {
+    font-size: 40px;
+  }
+  .worknumber .worknumber-text {
+    font-size: 16px;
+  }
   
 } 
