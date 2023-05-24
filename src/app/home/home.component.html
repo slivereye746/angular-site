@@ -106,7 +106,6 @@
 
 
 <div class="container" >
-  
   <p class="main_heading mb-4">Recommened Design Blog</p>  
   <p class="project-description text-center"><i>Something fun I found on internet!</i></p>
   <div class="row overflow-x-auto scrolling-wrapper row flex-row flex-nowrap " appScrollWithMouse>
@@ -149,18 +148,6 @@
   </div>
 </div> -->
 
-<div class="scroll-container" #scrollContainer (scroll)="updateActiveGroup()">
-  <div class="groups">
-    <div class="group" *ngFor="let group of groups" [class.active]="group === activeGroup">
-      <div class="group-items" appScrollWithMouse>
-        <div *ngFor="let item of group.items">{{ item }}</div>
-      </div>
-    </div>
-  </div>
-</div>
 
-<div class="navigation">
-  <button *ngFor="let group of groups; let i = index" [class.active]="group === activeGroup" (click)="scrollToGroup(i)">
-    Group {{ i + 1 }}
-  </button>
-</div>
+
+
