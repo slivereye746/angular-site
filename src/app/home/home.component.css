@@ -142,7 +142,53 @@
   background-color: #666666;
 }
 
+/* */
+.scroll-container {
+  width: 400px;
+  height: 200px;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
 
+.groups {
+  display: flex;
+}
+
+.group {
+  flex: 0 0 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+.group.active {
+  background-color: #eaeaea;
+}
+
+.group-items {
+  display: flex;
+  gap: 10px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.navigation button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.navigation button.active {
+  background-color: #eaeaea;
+}
 
 
 @media (min-width: 1350px) { 
@@ -197,8 +243,6 @@
   }
 
   /* List Number */
-  .worknumber {
-  }
   .worknumber .worknumber-box {
     width: 14rem;
   }
