@@ -142,8 +142,14 @@
   background-color: #666666;
 }
 
-/* */
+.carousel-indicators {
+  bottom:-30px;
+}
+.carousel-indicators button {
+  background-color: #333333;
+}
 
+/* */
 
 
 @media (min-width: 1350px) { 
