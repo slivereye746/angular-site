@@ -1,5 +1,6 @@
 header{
-    background-color: #ffffff
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(173, 173, 173, 0.2);
 }
 
 .navbar div {
@@ -7,10 +8,10 @@ header{
 }
 
 .logo {
-    width:70px;
+    width:64px;
     height: auto;
     font-weight: 600;
-    font-size: 26px;
+    font-size: 30px;
 }
 
 .nav-item{
@@ -66,6 +67,7 @@ header{
 */
 
 @media (min-width: 1350px) { 
+    
     .navbar {
         display: flex;
         flex-direction: row;
