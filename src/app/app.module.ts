@@ -16,6 +16,8 @@ import { ScrollWithMouseDirective } from './scroll-with-mouse.directive';
 
 import { FormsModule } from '@angular/forms'; // <-- NgModel lives here
 
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -39,7 +41,9 @@ import { FormsModule } from '@angular/forms'; // <-- NgModel lives here
       {path: 'contact', component: ContactComponent},
     ]),
   ],
-  providers: [],
+  providers: [{
+    provide: LocationStrategy, useClass: HashLocationStrategy
+  }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
