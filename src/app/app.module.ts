@@ -33,12 +33,11 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
     BrowserModule,
     FormsModule,
     RouterModule.forRoot([
-      
-      {path: 'home', component: HomeComponent},
-      {path: '',redirectTo: 'home', pathMatch: 'full'},
-      {path: 'projects', component: ProjectsComponent},
-      {path: 'gallery', component: GalleryComponent},
-      {path: 'contact', component: ContactComponent},
+      {path: '/home', component: HomeComponent},
+      {path: '',redirectTo: '/home', pathMatch: 'full'},
+      {path: '/projects', component: ProjectsComponent},
+      {path: '/gallery', component: GalleryComponent},
+      {path: '/contact', component: ContactComponent},
     ]),
   ],
   providers: [{
