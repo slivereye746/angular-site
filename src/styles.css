@@ -20,21 +20,7 @@
       font-family: var(--main-family);
       min-height: 100%;
   }
-  
-  body{
-    margin: 0;
-
-  }
 
   a { 
     text-decoration: none;
   }
-
-  @media (min-width: 1350px) { 
-    .navbar_mb {
-        display: none;
-    }
-    .navbar {
-        display: inline;
-    }
-}

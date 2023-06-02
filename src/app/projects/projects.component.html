@@ -1,7 +1,28 @@
-<div class="container">
-    <p>projects works!</p>
-    <h2>{{project.name}} Details</h2>
-    <div><span>id: </span>{{project.id}}</div>
-    <div><span>name: </span>{{project.name}}</div>
-    <div><span>img: </span>{{project.link}}</div>
+<div class="container d-flex">
+    <div class="d-none d-lg-block">
+      <ul class="menu flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
+    </div>
+    <div class="projects grid">
+        <div class="projects_item p-4 g-col-4" *ngFor="let project of projects"> 
+            <div class="d-flex flex-column">
+              <img [src]="project.link" alt="" class="projects_item_img">
+              <span class="">{{project.id}}</span>
+              <button class="name">{{project.name}}</button>
+            </div>
+          </div>
+    </div>
 </div>
+

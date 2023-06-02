@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PROJECTS } from '../projects-list';
 
 @Component({
   selector: 'app-gallery',
@@ -12,4 +13,5 @@ export class GalleryComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  projects = PROJECTS;
 }

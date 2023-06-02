@@ -1,0 +1,26 @@
+.projects {
+  width: 100%;
+  columns: 1;
+  break-inside: avoid;
+} 
+
+.projects_item {
+  width: 100%;
+  break-inside: avoid;
+} 
+.projects_item_img {
+  width: 100%;
+}
+
+
+@media (min-width: 768px) { 
+  .projects {
+      columns: 2;
+  }
+}
+
+@media (min-width: 1350px) { 
+  .projects {
+      columns: 3;
+  }
+}

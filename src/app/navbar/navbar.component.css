@@ -20,12 +20,15 @@ header{
     color: #828285;
 }
 
-.on{
-    color: #1c1c1f;
+.nav-item:hover{
+    color: #FFC911;
 }
 
-.nav-item:hover{
-    color: #F09B00;
+.nav-item.active{
+    color: #1c1c1f;
+}
+.nav-item.active:hover{
+    color: #FFC911;
 }
 
 .navbar_mb {
@@ -40,7 +43,7 @@ header{
     font-weight: 600;
     color: #828285;
   }
-.nav-item-mb.on {
+.nav-item-mb.active {
     color: #ffffff;
 }
 
