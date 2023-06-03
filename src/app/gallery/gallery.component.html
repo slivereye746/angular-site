@@ -1,12 +1,12 @@
 <div class="container">
     <p>gallery works!</p>
     <h2>My Heroes</h2>
-    <div class="projects grid">
-        <div class="projects_item p-4 g-col-4" *ngFor="let project of projects"> 
+    <div class="images grid">
+        <div class="images_item p-3 g-col-4" *ngFor="let image of shuffleArray(images)"> 
             <div class="d-flex flex-column">
-              <img [src]="project.link" alt="" class="projects_item_img">
-              <span class="">{{project.id}}</span>
-              <button class="name">{{project.name}}</button>
+              <img [src]="image.link" alt="" class="images_item_img mb-3 rounded">
+              <span class="images_item_text mb-3">{{ transformDateToTimeAgo(image.date) }} / {{image.description}}</span>
+              <button>share</button>
             </div>
           </div>
     </div>
