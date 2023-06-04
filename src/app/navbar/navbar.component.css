@@ -8,10 +8,10 @@ header{
 }
 
 .logo {
-    width:58px;
+    width:56px;
     height: auto;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 26px;
 }
 
 .nav-item{
@@ -56,10 +56,6 @@ header{
   background-color: rgba(0,0,0, 0.6);
 }
 
-.sticky {
-    position: sticky;
-    top: 0;
-}
 
 /* @media
 @media (min-width: 576px) { ... }
