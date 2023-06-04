@@ -19,8 +19,25 @@
       background: var(--color-bg);
       font-family: var(--main-family);
       min-height: 100%;
+      
+  }
+  
+  body {
+    font-size: 1.125rem;
+    line-height: 1.6;
+  }
+
+  main {
+    width: min(65ch, 100% - 4rem);
+    margin-inline: auto;
   }
 
   a { 
     text-decoration: none;
   }
+
+  img {
+    max-width: 100%;
+  }
+
+
