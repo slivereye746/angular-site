@@ -17,6 +17,7 @@ import { ScrollWithMouseDirective } from './scroll-with-mouse.directive';
 import { FormsModule } from '@angular/forms'; // <-- NgModel lives here
 
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { ProjectComponent } from './project/project.component';
 
 @NgModule({
   declarations: [
@@ -27,18 +28,13 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
     ProjectsComponent,
     GalleryComponent,
     ContactComponent,
-    ScrollWithMouseDirective
+    ScrollWithMouseDirective,
+    ProjectComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    RouterModule.forRoot([
-      {path: 'home', component: HomeComponent},
-      {path: '',redirectTo: 'home', pathMatch: 'full'},
-      {path: 'projects', component: ProjectsComponent},
-      {path: 'gallery', component: GalleryComponent},
-      {path: 'contact', component: ContactComponent},
-    ]),
+    AppRoutingModule
   ],
   providers: [{
     provide: LocationStrategy, useClass: HashLocationStrategy

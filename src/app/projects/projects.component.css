@@ -1,17 +1,26 @@
+.main{
+    display: flex;
+    align-items: start;
+    gap: 1rem;
+}
+
 .menu {
-    width: 160px;
+    width: 180px;
+    position: sticky;
+    top: 0;
+    padding-top: 10px;
 }
 .menu-link{
     width: 100%;
     font-weight: 400;
-    color: #6c6c6c;
+    color: #898989;
 }
 .menu-link:hover{
     color: #303030;
     background-color: #f3f3f3;
 }   
 .menu-link.active{
-    color: #1c1c1f;
+    color: #131315;
     background-color: #eaeaea;
 }
 
@@ -19,6 +28,7 @@
     width: 100%;
     columns: 1;
     break-inside: avoid;
+    margin-top: 10px;
 } 
 
 .projects_item {
