@@ -10,25 +10,26 @@ header{
 .logo {
     width:56px;
     height: auto;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 26px;
 }
 
 .nav-item{
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     color: #828285;
+    transition: color 0.3s ease;
 }
 
 .nav-item:hover{
-    color: #FFC911;
+    color: #FDA000;
 }
 
 .nav-item.active{
     color: #1c1c1f;
 }
 .nav-item.active:hover{
-    color: #FFC911;
+    color: #FDA000;
 }
 
 .navbar_mb {
@@ -83,5 +84,9 @@ header{
     
     .mb_menu {
         display: none;
+    }
+
+    .navbar {
+        height: 60px;
     }
 }

@@ -1,9 +1,10 @@
   /* You can add global styles to this file, and also import other style files */
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto+Slab:wght@300;400;500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&display=swap');
 
   :root {
-    --main-family: 'Montserrat', sans-serif;
-    --color-bg: #ababab;
+    --color-bg: #F9F9F9;
     /*
     --color-bg: linear-gradient(180deg, #FFFFFF 0%, #AEC6DC 100%);
   
@@ -16,14 +17,10 @@
     */
   }
   
-  html {
-      background: var(--color-bg);
-      font-family: "Poppins", sans-serif;
-      min-height: 100%;
-      
-  }
-  
   body {
+    background: var(--color-bg);
+    font-family: "Poppins", sans-serif;
+    min-height: 100%;
     font-size: 1.125rem;
     line-height: 1.6;
   }
@@ -41,5 +38,24 @@
     max-width: 100%;
   }
 
-
-  
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }

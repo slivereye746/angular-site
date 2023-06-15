@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&display=swap');
-
 .main-content {
   justify-content: center;
   align-items: center;
@@ -48,9 +46,9 @@
   height: 50px;
   font-size: 20px;
   font-weight: 500;
-  border-radius: 2em;
-  border-style: solid;
-  border-color: #FFA415;
+  border: none;
+  background: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(173, 173, 173, 0.2);
 }
 
 #contact_btn img {
@@ -154,7 +152,7 @@
 
 @media (min-width: 1350px) { 
   .header #dan_snow {
-    width: 440px;
+    width: 400px;
     padding: 20px;
   }
 
@@ -165,11 +163,8 @@
   }
 
   .main-content #vote p{
-    font-size: 74px;
-    margin: 0;
+    font-size: 60px;
     font-family: Georgia, Times, "Times New Roman", serif;
-    font-style: normal;
-    font-variant: normal;
     font-weight: 400;
     color: #000000;
     text-align: left;
@@ -177,6 +172,9 @@
   .main-content #header-description {
     text-align: left;
     width: 620px;
+  }
+  .main-content #header-description p{
+    font-size: 16px;
   }
 
   /* Projects */
