@@ -30,7 +30,6 @@
 }
 
 .main-content #header-description {
-  line-height: 19px;
   font-style: italic;
   font-size: 14px;
   color: #666666;
@@ -41,18 +40,41 @@
   width: 100%; 
 }
 
-#contact_btn {
+#contact_btn2 {
   width: 200px;
   height: 50px;
   font-size: 20px;
   font-weight: 500;
   border: none;
-  background: #ffffff;
-  box-shadow: 0 4px 8px 0 rgba(173, 173, 173, 0.2);
+  background-image: linear-gradient(red, yellow);
+  box-shadow: 0 4px 8px 0 rgba(173, 173, 173, 0.2); 
 }
+         
+#contact_btn {
+  background-image: linear-gradient(to right, #ff6f55 0%, #F09819  51%, #FF512F  100%);
+  margin: 10px;
+  padding: 10px 35px;
+  text-align: center;
+  border: none;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #ffffff;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  box-shadow: 0 4px 8px 0 rgba(173, 173, 173, 0.2); 
+}
+
+#contact_btn:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #ffffff;
+  text-decoration: none;
+}
+         
 
 #contact_btn img {
   width: 1.2em;
+  opacity: 0.9;
 /*
   margin-left: 0.5em; */
 }
@@ -60,6 +82,10 @@
 .main-icon-link {
   font-size: 1em;
   color: #666666;
+  transition: color 0.3s ease;
+}
+.main-icon-link:hover {
+  color: #FDA000;
 }
 
 .resource-list ul{
@@ -81,19 +107,24 @@
 /* Skills */
 .skills-item {
   width: 260px;
-  height: 260px;
+  height: 300px;
   background-color: #ffffff;
 }
 .skills-title {
-  font-size: large;
+  font-size: 18px;
   font-weight: 600;
+  color: #212529;
+}
+.skills-des {
+  color: #626881;
+  font-size: 16px;
 }
 
 /* Projects */
 .project-image {
   width: 95vw;
-  height: auto;
-  background-size: cover;
+  height: 200px;
+  object-fit: cover;
 }
 .project-tagcolor {
   width: 24px;
@@ -102,12 +133,12 @@
 }
 .project-tag {
   font-size: 12px;
-  font-weight: 500;
-  color: #333333;
+  font-weight: 600;
+  color: #6d6d6d;
 }
 .project-title {
   font-size: 22px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .project-description {
   color: #666666;
@@ -179,26 +210,26 @@
 
   /* Projects */
   .project-image {
-    width: 747px;
-    height: 467px;
+    width: 640px;
+    height: 400px;
   }
   .project-tagcolor {
-    width: 28px;
-    height: 14px;
+    width: 26px;
+    height: 12px;
     background-color: #FFA415;
   }
   .project-tag {
-    font-size: 15px;
+    font-size: 14px;
   }
   .project-title {
-    font-size: 30px;
+    font-size: 22px;
   }
   .project-description {
-    font-size: 18px;
+    font-size: 16px;
   }
   .project-list-item {
-    width: 160px;
-    height: 100px;
+    width: 140px;
+    height: 80px;
   }
 
   /* List Number */
@@ -206,7 +237,7 @@
     width: 14rem;
   }
   .worknumber .worknumber-num {
-    font-size: 40px;
+    font-size: 36px;
   }
   .worknumber .worknumber-text {
     font-size: 16px;

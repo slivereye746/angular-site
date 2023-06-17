@@ -3,22 +3,25 @@
   Building...
 </div>
 -->
-<header>
-    <div class="navbar mb-3 p-1 container">
-      <a class="navbar-brand logo d-none d-lg-block" href="/">
+<header class="d-none d-lg-block">
+    <div class="navbar mb-3 p-0 container">
+      <a class="navbar-brand logo" href="/">
         <div class="d-flex flex-row">
           <img class="mx-2" src="../assets/svg/logo_dark.svg" alt="">
           <span class="ms-1">Rin's Site</span>
         </div>
       </a> 
-      <nav class="navbar-list d-none d-lg-block">
-        <a class="nav-item ms-3" routerLink="/home" routerLinkActive="active"> HOME </a>
-        <a class="nav-item ms-3" routerLink="/projects" routerLinkActive="active"> PROJECTS </a>
-        <a class="nav-item ms-3" routerLink="/gallery" routerLinkActive="active"> GALLERY </a>
-        <a class="nav-item ms-3" routerLink="/contact" routerLinkActive="active"> CONTACT </a>
+      <nav class="navbar-list d-flex">
+        <a class="nav-item p-3 d-flex align-items-center justify-content-center" routerLink="/home" routerLinkActive="active"> HOME </a>
+        <a class="nav-item p-3 d-flex align-items-center justify-content-center" routerLink="/projects" routerLinkActive="active"> PROJECTS </a>
+        <a class="nav-item p-3 d-flex align-items-center justify-content-center" routerLink="/gallery" routerLinkActive="active"> GALLERY </a>
+        <a class="nav-item p-3 d-flex align-items-center justify-content-center" routerLink="/contact" routerLinkActive="active"> CONTACT </a>
       </nav>
-       <button type="button" class="btn btn-link mb_menu d-lg-none ms-auto" data-bs-toggle="modal" data-bs-target="#mobileMenu"><img src="../assets/svg/navbar_menu_mb.svg" alt=""></button>
     </div>
+</header>
+  
+<header class="header_mb d-lg-none">
+  <button type="button" class="btn btn-link mb_menu d-lg-none ms-auto" data-bs-toggle="modal" data-bs-target="#mobileMenu"><img src="../assets/svg/navbar_menu_mb.svg" alt=""></button>
 </header>
 <!-- Modal -->
 <div class="modal fade" id="mobileMenu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
