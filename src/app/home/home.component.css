@@ -6,8 +6,28 @@
 
 .main_heading{
   text-align: center;
-  font-size: x-large;
+  padding-top: 34px;
+  margin-bottom: 18px;
+}
+.main_heading p {
+  font-size: 28px;
   font-weight: 600;
+  text-transform: uppercase;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #FFA000;
+  display: inline;
+}
+
+.main_heading_desciption{
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #666666;
+  margin-bottom: 30px;
+}
+
+.main-SecondaryObject {
+  
 }
 
 .header #dan_snow {
@@ -38,16 +58,6 @@
 .main-content #header-description p{
   font-weight:normal;
   width: 100%; 
-}
-
-#contact_btn2 {
-  width: 200px;
-  height: 50px;
-  font-size: 20px;
-  font-weight: 500;
-  border: none;
-  background-image: linear-gradient(red, yellow);
-  box-shadow: 0 4px 8px 0 rgba(173, 173, 173, 0.2); 
 }
          
 #contact_btn {
@@ -108,7 +118,7 @@
 .skills-item {
   width: 260px;
   height: 300px;
-  background-color: #ffffff;
+
 }
 .skills-title {
   font-size: 18px;
@@ -124,6 +134,14 @@
 .project-image {
   width: 95vw;
   height: 200px;
+  position: relative;
+  overflow: hidden;
+}
+.project-image img{
+  width: auto;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
   object-fit: cover;
 }
 .project-tagcolor {
@@ -140,14 +158,19 @@
   font-size: 22px;
   font-weight: 600;
 }
-.project-description {
-  color: #666666;
+
+.carousel-indicators {
+  position: relative; 
 }
-.project-list-item {
-  background-size: cover;
+.carousel-indicators img{
   width: 30vw;
-  height: auto;
+  height: 60px;
+  margin: 0 10px;
+  position: relative; 
+  object-fit: cover;
 }
+
+
 
 /* List Number */
 .worknumber {
@@ -171,17 +194,16 @@
   background-color: #666666;
 }
 
-.carousel-indicators {
-  bottom:-30px;
-}
-.carousel-indicators button {
-  background-color: #333333;
-}
 
 /* */
+@media (min-width: 768px) {
+  
+}
+@media (min-width: 992px) {
+  
+}
 
-
-@media (min-width: 1350px) { 
+@media (min-width: 1200px) { 
   .header #dan_snow {
     width: 400px;
     padding: 20px;
@@ -210,8 +232,8 @@
 
   /* Projects */
   .project-image {
-    width: 640px;
-    height: 400px;
+    width: 65%;
+    height: 380px;
   }
   .project-tagcolor {
     width: 26px;
@@ -222,14 +244,14 @@
     font-size: 14px;
   }
   .project-title {
-    font-size: 22px;
+    font-size: 28px;
   }
   .project-description {
-    font-size: 16px;
+    font-size: 18px;
   }
-  .project-list-item {
-    width: 140px;
-    height: 80px;
+  .carousel-indicators img{
+    width: 160px;
+    height: 90px;
   }
 
   /* List Number */
