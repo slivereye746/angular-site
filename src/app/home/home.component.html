@@ -34,7 +34,7 @@
   </div>
 
   <!-- SKILLS -->
-  <div class="d-flex flex-column flex-lg-row resource-list align-items-center justify-content-center mt-5 pb-2">
+  <div class="d-flex flex-column flex-lg-row resource-list align-items-center justify-content-center mt-5">
     <div class="skills-item d-flex flex-column align-items-center text-center m-2 mb-4 p-2">
       <img style="background-color: gray; width:120px; height: 120px;">
       <p class="skills-title mt-3 mb-0">UI/UX</p>
@@ -52,13 +52,17 @@
     </div>
   </div>
 </div>
+
 <!-- MY RECENT PROJECTS -->
 <div class="main-SecondaryObject">
-  <div class="main_heading"><p>Lastest Post</p></div>  
+  <div class="main_heading"><p>MY RECENT PROJECTS</p></div>  
   <p class="main_heading_desciption text-center">Something fun I found on internet!</p>
-  <div id="carouselExampleCaptions" class="carousel slide d-flex flex-column" data-bs-ride="carousel" data-bs-touch="true"> 
-    <div class="carousel container">
-      <div class="carousel-item active">
+  
+  <!-- Carousel -->
+  <div id="projectCarousel" class="carousel slide d-flex flex-column"> 
+    <div class="carousel-inner container">
+
+      <div class="carousel-item active" data-bs-interval="10000">
         <div class="d-flex flex-column flex-lg-row mb-3">
           <div class="project-image rounded">
             <img src="../assets/img/project 1.png" alt="">
@@ -73,7 +77,8 @@
           </div>      
         </div>
       </div>
-      <div class="carousel-item">
+
+      <div class="carousel-item" data-bs-interval="2000">
         <div class="d-flex flex-column flex-lg-row mb-3">
           <div class="project-image rounded">
             <img src="../assets/img/DanGirlAndSnow-square.jpg" alt="">
@@ -88,6 +93,7 @@
           </div>      
         </div>
       </div>
+
       <div class="carousel-item">
         <div class="d-flex flex-column flex-lg-row mb-3">
           <div class="project-image rounded">
@@ -105,20 +111,19 @@
       </div>
     </div>
     <div class="carousel-indicators">
-      <img src="../assets/img/project 1.png" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1" class="active rounded">
-      <img src="../assets/img/DanGirlAndSnow-square.jpg" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" class="rounded">
-      <img src="../assets/img/project 1.png" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"  class="rounded">
+      <img src="../assets/img/project 1.png" data-bs-target="#projectCarousel" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1" class="active rounded">
+      <img src="../assets/img/DanGirlAndSnow-square.jpg" data-bs-target="#projectCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="rounded">
+      <img src="../assets/img/project 1.png" data-bs-target="#projectCarousel" data-bs-slide-to="2" aria-label="Slide 3"  class="rounded">
     </div>
   </div>
 </div>
 
 
-<!-- Lastest Post -->
-<p class="main_heading mb-1">Lastest Post</p>  
-<p class="main_heading_desciption mb-4 text-center">Something fun I found on internet!</p>
+
+  
 
 <!-- NUMBERS  -->
-<div class="worknumber my-5 py-4">
+<div class="worknumber py-4">
   <div class="container worknumber d-flex justify-content-center">
     <div class="worknumber-box mx-2 text-center">
       <p class="m-0 p-0 fw-bold worknumber-num">1.5 YEARS</p>
@@ -134,7 +139,9 @@
     </div>
   </div>
 </div>
-
+<!-- Lastest Post -->
+<div class="main_heading"><p>Lastest Post</p></div>  
+<p class="main_heading_desciption text-center">Something fun I found on internet!</p>
 
 
 

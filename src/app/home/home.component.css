@@ -6,7 +6,7 @@
 
 .main_heading{
   text-align: center;
-  padding-top: 34px;
+  padding-top: 24px;
   margin-bottom: 18px;
 }
 .main_heading p {
@@ -27,7 +27,7 @@
 }
 
 .main-SecondaryObject {
-  
+  padding-bottom: 34px;
 }
 
 .header #dan_snow {
@@ -117,8 +117,7 @@
 /* Skills */
 .skills-item {
   width: 260px;
-  height: 300px;
-
+  height: 280px;
 }
 .skills-title {
   font-size: 18px;
@@ -148,11 +147,13 @@
   width: 24px;
   height: 12px;
   background-color: #FFA415;
+  margin-top: 10px;
 }
 .project-tag {
   font-size: 12px;
   font-weight: 600;
   color: #6d6d6d;
+  margin-top: 10px;
 }
 .project-title {
   font-size: 22px;
@@ -160,15 +161,23 @@
 }
 
 .carousel-indicators {
-  position: relative; 
-  width: 100vw;
+  position: relative;
   margin: 0;
+  padding: 0;
 }
 .carousel-indicators img{
   width: 100px;
   height: 60px;
   object-fit: cover;
+  margin: 0 8px;
+  padding: 0;
+  filter: brightness(50%);
 }
+
+.carousel-indicators img.active{
+  filter: brightness(100%);
+}
+
 
 
 
@@ -218,7 +227,6 @@
     justify-content: space-between;
     align-items: center;
   }
-
   .main-content #vote p{
     font-size: 60px;
     font-family: Georgia, Times, "Times New Roman", serif;
