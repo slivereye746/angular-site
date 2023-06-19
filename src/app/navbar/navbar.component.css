@@ -16,9 +16,9 @@ header{
 .logo {
     width:54px;
     height: auto;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 22px;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Poppins', serif;
 }
 
 .navbar-list {

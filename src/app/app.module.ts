@@ -18,6 +18,7 @@ import { FormsModule } from '@angular/forms'; // <-- NgModel lives here
 
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { ProjectComponent } from './project/project.component';
+import { ScrollTopComponent } from './scroll-top/scroll-top.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { ProjectComponent } from './project/project.component';
     GalleryComponent,
     ContactComponent,
     ScrollWithMouseDirective,
-    ProjectComponent
+    ProjectComponent,
+    ScrollTopComponent
   ],
   imports: [
     BrowserModule,

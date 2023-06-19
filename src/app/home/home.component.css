@@ -14,9 +14,9 @@
   align-items: center;
 }
 .main_heading p {
-  font-size: 28px;
+  font-size: 30px;
   font-weight: 600;
-  text-transform: uppercase;
+  color: #201c15;
 }
 .main_heading div {
   width: 120px;
@@ -45,6 +45,9 @@
   box-shadow: rgba(115, 115, 121, 0.2) 0px 4px 20px 0px;
 }
 
+.main-content{
+  padding: 10px 0;
+}
 .main-content #vote p{
   font-size: 32px;
   margin: 0;
@@ -110,9 +113,9 @@
 
 .resource-list span{
   display: inline-block;
-    width: 70px;
-    height: 70px;
-    margin: 6px;
+  width: 70px;
+  height: 70px;
+  margin: 6px;
 }
 
 .resource-list ul li img{
