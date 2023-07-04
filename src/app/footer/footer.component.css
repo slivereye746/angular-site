@@ -1,20 +1,40 @@
 footer{
-    bottom: 10px;
-    margin: 0 auto;
+    margin-top: 120px;
+    background-color: #181818;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+}
+
+.details {
     width: 100%;
-    font-size: 14px;
+    height: 300px;
+    margin: 0 auto;
+    font-size: 18px;
+    padding: 60px 0;
+    font-weight: 700;
+}
+.logo {
+    width: 40px;
 }
 
-.license {
-    font-size: 12px;
+a{
+    color: #ffffff;
 }
 
-@media (min-width: 768px) {
-    footer{
-        font-size: 16px;
-    }
-    
-    .license {
-        font-size: 15px;
-    }
+.license{
+    border-top: 1px solid;
+    color: #ffffff;
+    font-size: 15px;
+    height: 80px;
+}
+.license span {
+    opacity: 0.8;
+}
+
+.icon {
+    opacity: 0.8;
+}
+.icon:hover{
+    opacity: 1;
 }

@@ -31,6 +31,6 @@
 
 @media (min-width: 1350px) { 
   .images {
-      columns: 4;
+      columns: 3;
   }
 }

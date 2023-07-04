@@ -4,40 +4,7 @@
   padding: 30px 20px;
 }
 
-.main_heading{
-  font-family: 'Roboto Slab', serif;
-  text-align: center;
-  padding-top: 24px;
-  margin-bottom: 40px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.main_heading p {
-  font-size: 30px;
-  font-weight: 600;
-  color: #201c15;
-}
-.main_heading div {
-  width: 120px;
-  height: 3px;
-  background-color: #FDA000;
-}
-
-.main_heading_desciption{
-  text-align: center;
-  font-size: 16px;
-  font-weight: 400;
-  color: #666666;
-}
-
-.main-SecondaryObject {
-  padding-bottom: 34px;
-  background-color: #ffffff;
-  box-shadow: 0 4px 8px 0 rgba(173, 173, 173, 0.2);
-}
-
-.header #dan_snow {
+.dan_snow {
   width: 260px;
   padding: 10px;
   border: 1px solid #ececec;
@@ -48,27 +15,8 @@
 .main-content{
   padding: 10px 0;
 }
-.main-content #vote p{
-  font-size: 32px;
-  margin: 0;
-  font-family: Georgia, Times, "Times New Roman", serif;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 400;
-  color: #000000;
-  text-align: center;
-}
 
-.main-content #header-description {
-  font-style: italic;
-  font-size: 14px;
-  color: #666666;
-}
 
-.main-content #header-description p{
-  font-weight:normal;
-  width: 100%; 
-}
          
 #contact_btn {
   background-image: linear-gradient(to right, #ff6f55 0%, #F09819  51%, #FF512F  100%);
@@ -245,8 +193,8 @@
   .container {
     width: 1170px;
   }
-  .header #dan_snow {
-    width: 400px;
+ .dan_snow {
+    width: 700px;
     padding: 20px;
   }
 
@@ -255,13 +203,8 @@
     justify-content: space-between;
     align-items: center;
   }
-  .main-content #vote p{
-    font-size: 60px;
-    font-family: Georgia, Times, "Times New Roman", serif;
-    font-weight: 400;
-    color: #000000;
-    text-align: left;
-  }
+  
+
   .main-content #header-description {
     text-align: left;
     width: 620px;

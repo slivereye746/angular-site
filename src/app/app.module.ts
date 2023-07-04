@@ -12,7 +12,6 @@ import { HomeComponent } from './home/home.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ContactComponent } from './contact/contact.component';
-import { ScrollWithMouseDirective } from './scroll-with-mouse.directive';
 
 import { FormsModule } from '@angular/forms'; // <-- NgModel lives here
 
@@ -29,7 +28,6 @@ import { ScrollTopComponent } from './scroll-top/scroll-top.component';
     ProjectsComponent,
     GalleryComponent,
     ContactComponent,
-    ScrollWithMouseDirective,
     ProjectComponent,
     ScrollTopComponent
   ],

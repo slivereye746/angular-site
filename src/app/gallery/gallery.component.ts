@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { formatDistanceToNowStrict } from 'date-fns';
 import { IMAGES } from '../images-list';
+import { Image } from '../image';
+import { ImageService } from '../image.service';
 
 @Component({
   selector: 'app-gallery',
@@ -8,32 +10,16 @@ import { IMAGES } from '../images-list';
   styleUrls: ['./gallery.component.css']
 })
 export class GalleryComponent implements OnInit {
+  images: Image[] = [];
 
-  constructor() { }
+  constructor(private imageService: ImageService) { }
 
   ngOnInit(): void {
+    this.getImages();
   }
 
-  images = IMAGES;
-
-  public shuffleArray(array: any[]): any[] {
-    let currentIndex = array.length;
-    let temporaryValue;
-    let randomIndex;
-  
-    // While there remain elements to shuffle...
-    while (currentIndex !== 0) {
-      // Pick a remaining element...
-      randomIndex = Math.floor(Math.random() * currentIndex);
-      currentIndex--;
-  
-      // And swap it with the current element.
-      temporaryValue = array[currentIndex];
-      array[currentIndex] = array[randomIndex];
-      array[randomIndex] = temporaryValue;
-    }
-  
-    return array;
+  getImages(): void {
+    this.imageService.getImages().subscribe(images => this.images = images);
   }
 
   transformDateToTimeAgo(date: string): string {

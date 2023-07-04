@@ -1,8 +1,13 @@
 <div class="container">
-    <p>gallery works!</p>
-    <h2>My Heroes</h2>
+  <div class="main-headbox d-flex flex-column align-items-lg-start align-items-center mr-auto">
+    <div class="mt-2 mb-3">
+      <p class="vote-small">Hi! I'M RIN,</p>
+      <p class="vote-big">an UX/UI Designer</p>
+      <p class="vote-des">As a designer, I always aim for the most compatible experience with the user's needs.. Alongside my clients, I uncover problems and solve them.</p>
+    </div>      
+  </div>
     <div class="images grid">
-        <div class="images_item p-3 g-col-4" *ngFor="let image of shuffleArray(images)"> 
+        <div class="images_item p-3 g-col-4" *ngFor="let image of images"> 
             <div class="d-flex flex-column">
               <img [src]="image.link" alt="" class="images_item_img mb-3 rounded">
               <span class="images_item_text mb-3">{{ transformDateToTimeAgo(image.date) }} / {{image.description}}</span>

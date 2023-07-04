@@ -1,9 +1,8 @@
   /* You can add global styles to this file, and also import other style files */
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500&display=swap');
   :root {
-    --color-bg: #F9F9F9;
+    --color-bg: #ffffff;
     /*
     --color-bg: linear-gradient(180deg, #FFFFFF 0%, #AEC6DC 100%);
   
@@ -21,9 +20,11 @@
   }
   
   body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     background: var(--color-bg);
-    font-family: "Montserrat", sans-serif;
-    min-height: 100%;
+    font-family: "Manrope", sans-serif;
     font-size: 1.125rem;
   }
 
@@ -46,6 +47,75 @@
     margin-right: auto;
     margin-left: auto;
   }
+
+  .main_heading{
+    padding-top: 24px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .main_heading p {
+    font-size: 40px;
+    font-weight: 600;
+    color: #201c15;
+  }
+  .main_heading div {
+    width: 120px;
+    height: 3px;
+    background-color: #FDA000;
+  }
+  
+  .main_heading_desciption{
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+  }
+  
+  .main-SecondaryObject {
+    padding-bottom: 34px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(173, 173, 173, 0.2);
+  }
+
+  .main-headbox{
+    padding: 30px 0;
+  }
+  .vote-small{
+    font-size: 16px;
+    margin: 0;
+    font-weight: 500;
+    color: #fd8b00;
+    text-align: left;
+  }
+  .vote-1st{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1.25em;
+  }
+  .vote-2nd{
+    font-size: 20px;
+  }
+  .vote-link{
+    font-size:25px;
+    font-weight: 600;
+    background: linear-gradient(to right,#fd8b00,#fd8b00 50%, #1b1b1b 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: all 0.4s ease-out;
+    background-size: 200% 100%;
+    background-position: 0;
+  }
+  .vote-link:hover{
+    background-position: -100%; /* change the direction of the change here */
+  }
+  .vote-des {
+    font-size: 16px;
+    color: #666666;
+    width: 100%; 
+  }
+
   @media (min-width: 768px) {
     .container {
       width: 750px;
@@ -57,7 +127,32 @@
     }
   }
   @media (min-width: 1200px) {
+    .wi-60{
+      width: 60%;
+    }
+
     .container {
       width: 1170px;
+    }
+
+    .main-headbox{
+      padding: 120px 0;
+    }
+
+    .vote-small{
+      font-size: 20px;
+    }
+    .vote-1st{
+      font-size: 68px;
+    }
+    .vote-2nd{
+      
+      font-size: 26px;
+    }
+    .vote-link{
+      font-size:35px;
+    }
+    .vote-des{
+      width: 70%;
     }
   }

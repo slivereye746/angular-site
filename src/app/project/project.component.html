@@ -32,76 +32,35 @@ xmlns="http://www.w3.org/2000/svg">
 </polygon>
 </svg>
 
-<svg width="120"
-height="120" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 250.56 173.74">
-  <defs>
-    <style>
-      .cls-1, .cls-2 {
-        fill: #fff;
-      }
+<svg width="400" height="400">
+  <circle cx="200" cy="200" r="150" fill="none" stroke="black" />
 
-      .cls-3 {
-        fill: none;
-        filter: url(#outer-glow-3);
-        stroke: #f1f2ca;
-        stroke-miterlimit: 10;
-      }
-
-      .cls-4 {
-        fill: #ffb888;
-      }
-
-      .cls-5 {
-        fill: #fbe7be;
-      }
-
-      .cls-2 {
-        filter: url(#drop-shadow-1);
-      }
-
-      .cls-6 {
-        fill: #ff9147;
-        filter: url(#drop-shadow-2);
-      }
-
-      .cls-7 {
-        fill: url(#linear-gradient);
-      }
-    </style>
-    <linearGradient id="linear-gradient" x1="200.57" y1="43.43" x2="50.08" y2="130.31" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#ffc187"/>
-      <stop offset="1" stop-color="#fef4c8"/>
-    </linearGradient>
-    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
-      <feOffset dx="4" dy="4"/>
-      <feGaussianBlur result="blur" stdDeviation="4"/>
-      <feFlood flood-color="#ffa761" flood-opacity=".6"/>
-      <feComposite in2="blur" operator="in"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <filter id="drop-shadow-2" filterUnits="userSpaceOnUse">
-      <feOffset dx="4" dy="4"/>
-      <feGaussianBlur result="blur-2" stdDeviation="4"/>
-      <feFlood flood-color="#ffa761" flood-opacity=".6"/>
-      <feComposite in2="blur-2" operator="in"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <filter id="outer-glow-3" filterUnits="userSpaceOnUse">
-      <feOffset dx="0" dy="0"/>
-      <feGaussianBlur result="blur-3" stdDeviation="5"/>
-      <feFlood flood-color="#fff083" flood-opacity=".75"/>
-      <feComposite in2="blur-3" operator="in"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-  </defs>
-  <circle class="cls-7" cx="125.33" cy="86.87" r="86.87"/>
-  <circle class="cls-1" cx="170.46" cy="33.06" r="6.65"/>
-  <circle class="cls-1" cx="76.18" cy="36" r="2.93"/>
-  <circle class="cls-1" cx="112.05" cy="143.61" r="2.93"/>
-  <circle class="cls-5" cx="203.97" cy="101.13" r="1.47"/>
-  <rect class="cls-2" x="67.75" y="61.75" width="87.74" height="63.55" rx="5" ry="5"/>
-  <path class="cls-4" d="m72.75,61.75h77.74c2.76,0,5,2.24,5,5v9.23h-87.74v-9.23c0-2.76,2.24-5,5-5Z"/>
-  <rect class="cls-6" x="128.08" y="57.2" width="63.59" height="46.06" rx="2" ry="2" transform="translate(240.1 -79.64) rotate(90)"/>
-  <circle class="cls-5" cx="159.87" cy="104.54" r="3.44"/>
-  <path class="cls-3" d="m206.84,47.7c15.9,1.93,26.21,6.62,27.9,13.91,3.98,17.25-41.77,42.55-102.2,56.5-60.42,13.95-112.64,11.27-116.62-5.98-1.72-7.44,5.82-16.38,19.8-25.26"/>
+  <rect id="square" x="100" y="100" width="100" height="100" fill="red">
+    <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="3s" repeatCount="1" values="0,0; 200,0" calcMode="spline" keyTimes="0; 1" keySplines="0.5 0.1 0.5 1" fill="freeze" />
+    <animate attributeName="fill" attributeType="CSS" from="red" to="blue" begin="3s" dur="0.5s" fill="freeze" />
+  </rect>
 </svg>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch-->
+  <title>Animation</title>
+  <desc>Created with Sketch.</desc>
+  <defs>
+    <linearGradient id="anim-linearGradient-1" x1="30.9785156%" y1="25.7265625%" x2="71.109375%" y2="68.6582031%">
+      <stop stop-color="#FFAF73" offset="0%"></stop>
+      <stop stop-color="#FFFECC" offset="100%"></stop>
+    </linearGradient>
+    <clipPath id="anim-particle">
+      <path id="animPenta1" d="M112.5,117.236068 L110.346873,118.800407 L111.169294,121.331559 L113.830706,121.331559 L114.653127,118.800407 L112.5,117.236068 Z M113.675571,115.618034 L115.828698,117.182373 C116.529673,117.691661 116.822989,118.594395 116.55524,119.418441 L115.732819,121.949593 C115.46507,122.773639 114.697158,123.331559 113.830706,123.331559 L111.169294,123.331559 C110.302842,123.331559 109.53493,122.773639 109.267181,121.949593 L108.44476,119.418441 C108.177011,118.594395 108.470327,117.691661 109.171302,117.182373 L111.324429,115.618034 C112.025404,115.108746 112.974596,115.108746 113.675571,115.618034 Z" fill="#FFFFFF" fill-rule="nonzero" data-svg-origin="112.5 119.2838134765625" transform="matrix(0.554,0,0,0.554,48.32264636230466,50.503286651611305)" style=""></path>
+      <path id="animPenta2" d="M123.201882,95.91245 L123.662979,97.3315595 L125.155119,97.3315595 L125.616216,95.91245 L124.409049,95.035392 L123.201882,95.91245 Z M126.791786,94.294416 C127.492761,94.803704 127.786077,95.7064386 127.518329,96.530484 L127.057232,97.9495935 C126.789484,98.7736388 126.021572,99.3315595 125.155119,99.3315595 L123.662979,99.3315595 C122.796526,99.3315595 122.028615,98.7736388 121.760866,97.9495935 L121.299769,96.530484 C121.032021,95.7064386 121.325337,94.803704 122.026312,94.294416 L123.233479,93.4173581 C123.934453,92.90807 124.883645,92.90807 125.58462,93.4173581 L126.791786,94.294416 Z" fill="#FFFFFF" fill-rule="nonzero" data-svg-origin="124.4090461730957 96.18347549438477" transform="matrix(0,0,0,0,150.1612683953179,87.77458660549588)" style="transform-origin: 0px 0px 0px;"></path>
+      <path id="animPenta3" d="M82.0411799,86.91245 L82.5022766,88.3315595 L83.9944166,88.3315595 L84.4555133,86.91245 L83.2483466,86.035392 L82.0411799,86.91245 Z M85.6310838,85.294416 C86.3320586,85.803704 86.6253748,86.7064386 86.3576263,87.530484 L85.8965297,88.9495935 C85.6287811,89.7736388 84.8608691,90.3315595 83.9944166,90.3315595 L82.5022766,90.3315595 C81.6358241,90.3315595 80.8679121,89.7736388 80.6001635,88.9495935 L80.1390669,87.530484 C79.8713184,86.7064386 80.1646346,85.803704 80.8656094,85.294416 L82.0727761,84.4173581 C82.7737509,83.90807 83.7229423,83.90807 84.4239171,84.4173581 L85.6310838,85.294416 Z" fill="#FFFFFF" fill-rule="nonzero" data-svg-origin="83.24834823608398 87.18347549438477" transform="matrix(-0.98134,0.19223,-0.19223,-0.98134,155.9294030797926,167.49415385870114)" style="transform-origin: 0px 0px 0px;"></path>
+      <path id="animPenta4" d="M123.201882,95.91245 L123.662979,97.3315595 L125.155119,97.3315595 L125.616216,95.91245 L124.409049,95.035392 L123.201882,95.91245 Z M126.791786,94.294416 C127.492761,94.803704 127.786077,95.7064386 127.518329,96.530484 L127.057232,97.9495935 C126.789484,98.7736388 126.021572,99.3315595 125.155119,99.3315595 L123.662979,99.3315595 C122.796526,99.3315595 122.028615,98.7736388 121.760866,97.9495935 L121.299769,96.530484 C121.032021,95.7064386 121.325337,94.803704 122.026312,94.294416 L123.233479,93.4173581 C123.934453,92.90807 124.883645,92.90807 125.58462,93.4173581 L126.791786,94.294416 Z" fill="#FFFFFF" fill-rule="nonzero" data-svg-origin="124.4090461730957 96.18347549438477" transform="matrix(-0.19409,-0.60635,0.60635,-0.19409,127.13811108071823,205.015562567329)" style="transform-origin: 0px 0px 0px;"></path>
+    </clipPath>
+  </defs>
+  <g id="Anim-Mask-Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="animMask" clip-path="url(#anim-particle)">
+      <rect id="animRectMask" fill="url(#anim-linearGradient-1)" x="0" y="0" width="200" height="200"></rect>
+      <circle id="animCircleMask" fill="#FFFFFF" cx="100.5" cy="100.5" r="38.5" opacity=".7"></circle>
+    </g>
+  </g>
+</svg>
+
